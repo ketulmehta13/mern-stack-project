@@ -1,7 +1,7 @@
 {
-  "name": "mern-stack",
+  "name": "lesson_13-be",
   "version": "1.0.0",
-  "description": "mern project",
+  "description": "techNotes MERN Project",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -10,20 +10,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "bcrypt": "^6.0.0",
+    "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
-    "date-fns": "^4.4.0",
-    "dotenv": "^18.0.10",
-    "express": "^5.3.0",
-    "express-async-handler": "^1.2.0",
-    "mongoose": "^9.13.1",
-    "mongoose-sequence": "^6.0.1",
-    "uuid": "^14.0.3"
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^6.11.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.13.13",
+    "mongoose-sequence": "^5.3.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^2.0.22"
   }
 }
